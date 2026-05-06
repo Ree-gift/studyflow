@@ -62,18 +62,18 @@ Deployed on Vercel. Any push to `main` branch triggers automatic deployment.
 ---
 
 ## Screenshots
-_Screenshots will be added soon._
 
-<!-- 
-### Desktop (1440px)
-![Desktop Screenshot](screenshots/desktop.png)
+### Desktop
+![Desktop - Hero](screenshots/desktop01.png)
+![Desktop - Features](screenshots/desktop02.png)
 
-### Tablet (768px)
-![Tablet Screenshot](screenshots/tablet.png)
+### Tablet
+![Tablet - Hero](screenshots/tablet01.png)
+![Tablet - Pricing](screenshots/tablet02.png)
 
-### Mobile (375px)
-![Mobile Screenshot](screenshots/mobile.png)
--->
+### Mobile
+![Mobile - Hero](screenshots/mobile01.png)
+![Mobile - Features](screenshots/mobile02.png)
 
 ---
 
@@ -102,13 +102,16 @@ _Screenshots will be added soon._
 ## Project Structure
 ```
 studyflow/
-├── index.html          # Main HTML file
-├── styles.css          # All styles with responsive breakpoints
-├── script.js           # Mobile menu and scroll interactions
-├── screenshots/        # Device screenshots
-│   ├── desktop.png
-│   ├── tablet.png
-│   └── mobile.png
-├── .gitignore          # Git ignore rules
-└── README.md           # Project documentation
+├── index.html              # Main HTML file
+├── styles.css              # All styles with responsive breakpoints
+├── script.js               # Interactivity, modals, mini-apps
+├── screenshots/            # Device screenshots
+│   ├── desktop01.png       # Desktop - Hero section
+│   ├── desktop02.png       # Desktop - Features section
+│   ├── tablet01.png        # Tablet - Hero section
+│   ├── tablet02.png        # Tablet - Pricing section
+│   ├── mobile01.png        # Mobile - Hero section
+│   └── mobile02.png        # Mobile - Features section
+├── .gitignore              # Git ignore rules
+└── README.md               # Project documentation
 ```
