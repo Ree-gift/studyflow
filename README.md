@@ -62,7 +62,9 @@ Deployed on Vercel. Any push to `main` branch triggers automatic deployment.
 ---
 
 ## Screenshots
+_Screenshots will be added soon._
 
+<!-- 
 ### Desktop (1440px)
 ![Desktop Screenshot](screenshots/desktop.png)
 
@@ -71,6 +73,7 @@ Deployed on Vercel. Any push to `main` branch triggers automatic deployment.
 
 ### Mobile (375px)
 ![Mobile Screenshot](screenshots/mobile.png)
+-->
 
 ---
 
