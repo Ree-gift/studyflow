@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const filtered = filter === 'all' ? todos : filter === 'active' ? todos.filter(t => !t.completed) : todos.filter(t => t.completed);
             list.innerHTML = filtered.map(t => `
                 <li class="todo-item">
-                    <div class="todo-checkbox ${t.completed ? 'checked' : '" data-id="${t.id}"></div>
+                    <div class="todo-checkbox ${t.completed ? 'checked' : ''}" data-id="${t.id}"></div>
                     <span class="todo-text ${t.completed ? 'completed' : ''}">${t.text}</span>
                     <span class="todo-priority priority-${t.priority}">${t.priority}</span>
                     <button class="todo-delete" data-id="${t.id}">&times;</button>
